@@ -1,0 +1,8 @@
+22 - August -2024 : SQL Notes
+
+1] What is SQL DISTINCT? 
+ANS: The SQL DISTINCT keyword is used to retrieve unique values from a specified column or set of columns in a database table. It eliminates duplicate records, ensuring that only distinct, non-repeated values are returned.
+
+eg. Select all the different values from the Country column in the Customers table.
+ANS: 
+SELECT DISTINCT Country FROM Customers;
